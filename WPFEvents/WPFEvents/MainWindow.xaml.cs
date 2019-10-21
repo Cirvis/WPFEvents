@@ -26,7 +26,7 @@ namespace WPFEvents
             InitializeComponent();
             getAvailableComPorts();
             string path = Directory.GetCurrentDirectory();
-           // imgPhoto.Source = new BitmapImage(new Uri("file://"+path+"//Compass.jpg"));
+            imgPhoto.Source = new BitmapImage(new Uri("file://"+path+"//Compass.jpg"));
 
             foreach (var port in ports)
             {
