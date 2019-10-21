@@ -28,7 +28,7 @@ namespace WPFEvents
             string path = Directory.GetCurrentDirectory();
             string compassImage = "file://" + path + "//Compass.jpg";
            
-            if (File.Exists(compassImage))
+            if (File.Exists(path + "//Compass.jpg"))
             {
                 imgPhoto.Source = new BitmapImage(new Uri(compassImage));
             }
